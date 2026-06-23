@@ -1,0 +1,11 @@
+---
+- name: My First Task
+  hosts: local
+  connection: local
+
+  tasks:
+    - debug:
+        msg: "Ansible is a config management tool"
+
+    - debug:
+        msg: "Hello"
